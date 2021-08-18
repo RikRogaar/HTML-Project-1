@@ -1,0 +1,223 @@
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+html{ 
+margin: 0;
+	padding: 0;
+}
+
+body { 
+	background-color: rgb(25, 25, 25);
+	font-family: 'Anonymous Pro', monospace;
+	color: rgba(255, 255, 255, 0.75);
+	margin: 0;
+	padding: 0;
+ }
+
+.mainText {
+	text-align: center;
+	width: 100vw;
+	font-size: 0.6em;
+	margin: 0;
+	padding: 0;
+	margin-top: 5vh;
+}
+
+ .mainText h1{
+	 text-align: middle;
+	opacity: 0;
+	width: 100vw;
+	
+	animation:
+	slideDownAnimation 0.5s ease-in-out 0s forwards,
+    fadeInAnimation 0.1s ease-in-out 0s forwards;
+
+}
+
+.buttonspog {
+	position: relative;
+	top: 10vh;
+	width: 200px;
+	height: 313px;
+	left: calc(50% - 100px);
+}
+
+.button { 
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  font-size: 18px;
+}
+
+.button1 { 
+  position: relative;
+  top: 0px;
+  font-size: 18px;
+  background-color: rgb(194, 178, 194);
+  border: none;
+  font-family: 'Anonymous Pro', monospace;
+  color: black;
+  height: 48px;
+  border-radius: 25px;
+  width: 200px;
+  cursor: pointer;
+  	opacity: 0;
+  	animation:
+	slideDownAnimation 0.7s ease-in-out 0.45s forwards,
+    fadeInAnimation 0.6s ease-in-out 0.45s forwards;
+}
+
+.button1:hover {
+  background-color: rgb(247, 230, 247);
+
+}
+
+.button2 { 
+  position: relative;
+  top: 5px;
+  font-size: 18px;
+  background-color: rgb(194, 178, 194);
+  border: none;
+  font-family: 'Anonymous Pro', monospace;
+  color: black;
+  width: 200px;
+  height: 48px;
+  border-radius: 25px;
+  cursor: pointer;
+  opacity: 0;
+  	animation:
+	slideDownAnimation 0.6s ease-in-out 0.4s forwards,
+    fadeInAnimation 0.5s ease-in-out 0.4s forwards;
+}
+
+.button2:hover {
+  background-color: rgb(247, 230, 247);
+
+}
+
+
+.button3 { 
+  position: relative;
+  top: 10px;
+  font-size: 18px;
+  background-color: rgb(194, 178, 194);
+  border: none;
+  font-family: 'Anonymous Pro', monospace;
+  color: black;
+  height: 48px;
+  border-radius: 25px;
+  width: 200px;
+  cursor: pointer;
+  	opacity: 0;
+  	animation:
+	slideDownAnimation 0.5s ease-in-out 0.35s forwards,
+    fadeInAnimation 0.4s ease-in-out 0.35s forwards;
+}
+
+.button3:hover {
+  background-color: rgb(247, 230, 247);
+
+}
+
+
+.button4 { 
+  position: relative;
+  top: 15px;
+  font-size: 18px;
+  background-color: rgb(194, 178, 194);
+  border: none;
+  font-family: 'Anonymous Pro', monospace;
+  color: black;
+  height: 48px;
+  border-radius: 25px;
+  width: 200px;
+  cursor: pointer;
+  	opacity: 0;
+  	animation:
+	slideDownAnimation 0.4s ease-in-out 0.3s forwards,
+    fadeInAnimation 0.3s ease-in-out 0.3s forwards;
+}
+
+.button4:hover {
+  background-color: rgb(247, 230, 247);
+
+}
+
+
+.button5 { 
+  position: relative;
+  top: 20px;
+  font-size: 18px;
+  background-color: rgb(194, 178, 194);
+  border: none;
+  font-family: 'Anonymous Pro', monospace;
+  color: black;
+  height: 48px;
+  border-radius: 25px;
+  width: 200px;
+  cursor: pointer;
+  	opacity: 0;
+  	animation:
+	slideDownAnimation 0.3s ease-in-out 0.25s forwards,
+    fadeInAnimation 0.2s ease-in-out 0.25s forwards;
+}
+
+.button5:hover {
+  background-color: rgb(247, 230, 247);
+
+}
+
+.button6 { 
+  position: relative;
+  top: 25px;
+  font-size: 18px;
+  background-color: rgb(194, 178, 194);
+  border: none;
+  font-family: 'Anonymous Pro', monospace;
+  color: black;
+  height: 48px;
+  border-radius: 25px;
+  width: 200px;
+  cursor: pointer;
+  	opacity: 0;
+  	animation:
+	slideDownAnimation 0.2s ease-in-out 0.2s forwards,
+    fadeInAnimation 0.1s ease-in-out 0.2s forwards;
+}
+
+.button6:hover {
+  background-color: rgb(247, 230, 247);
+
+}
+
+@-webkit-keyframes fadeInAnimation {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+@-moz-keyframes fadeInAnimation {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+@-o-keyframes fadeInAnimation {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+@keyframes fadeInAnimation {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+ 
+@-webkit-keyframes slideDownAnimation {
+  0%   { margin-top: -20px;}
+  100% { margin-top: 0;}
+}
+@-moz-keyframes slideDownAnimation {
+  0%   { margin-top: -20px;}
+  100% { margin-top: 0;}
+}
+@-o-keyframes slideDownAnimation {
+  0%   { margin-top: -20px;}
+  100% { margin-top: 0;}
+}
+@keyframes slideDownAnimation {
+  0%   { margin-top: -20px;}
+  100% { margin-top: 0;}
+}

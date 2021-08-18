@@ -1,0 +1,30 @@
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+
+body { 
+	background-color: rgb(25, 25, 25);
+	font-family: 'Anonymous Pro', monospace;
+	color: rgba(255, 255, 255, 0.75);
+ }
+
+.button1 { 
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  font-size: 18px;
+}
+
+.mainText h1{
+	text-align: center;
+	position: relative;
+	top: 60px;
+	margin: auto;
+	white-space: nowrap;
+}
+
+.p1{
+	text-align: center;
+	top: 25%;
+	padding: 5em;
+	white-space: nowrap;
+	font-size: 20px;
+}
